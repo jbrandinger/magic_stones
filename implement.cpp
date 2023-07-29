@@ -1,13 +1,12 @@
-/* implement_hw.cpp
+/* implement.cpp
  *
- * implement solutions to magic stones and count flips algorithms from hw
+ * implement solutions to magic stones and count flips algorithms
  *
  * Created By: Joel Brandinger
  *
- * Date: April 2022
  */
-#include "implement_hw.h"
-#include <bits/stdc++.h>
+#include "implement.h"
+#include <vector>
 #include <climits>
 
 int solveBU(const vector<int> &stones, int health, vector<int> &memo);
